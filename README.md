@@ -2,47 +2,52 @@
 
 ## Data
 
-The data I propose to visualize for my project is ...
+The data I propose to visualize for my project is [Climate change and Agriculture Dataset from Kaggle](https://www.kaggle.com/datasets/waqi786/climate-change-impact-on-agriculture).
 
 
 ## Questions & Tasks
 
 The following tasks and questions will drive the visualization and interaction decisions for this project:
-
- * (insert your question or task here) How does the X vary over time?
- * (insert your question or task here) Is there any correlation between X and Y?
- * (insert your question or task here) Are there interesting spatial patterns in X?
- * (insert your question or task here) How many X are there across different Y?
+- Analyze Climate Trends Over Time
+- Explore how variations in climate variables affect agricultural productivity
+- Compare Agricultural Productivity Across Regions
+- Investigate how specific climate factors (temperature vs. rainfall, ...) impact different crop types
+- Discover how crop diversity in a region affects resilience to climate changes
 
 ## Sketches
 
-(insert one or more hand-drawn sketches of interactive visualizations that you imagine)
-(describe each sketch - how is the data visualized, what are the interactions, and how do these relate to the questions/tasks)
+![sketch1](images/cs573_5-1.jpg)
+![sketch2](images/cs573_5-2.jpg)
+![sketch3](images/cs573_5-3.jpg)
+
+##### 1. Climate & Crop Yield Over Time
+- Task: Analyze Climate Trends Over Time
+- This visualization focuses on long-term trends in climate factors like temperature and precipitation, along with crop yields, allowing users to examine changes and correlations over the years.
+##### 2. Pesticide & Fertilizer vs. Soil Health & Crop Yields
+ - Task: Explore how variations in climate variables affect agricultural productivity
+ - By visualizing pesticide use, fertilizer application, soil health, and crop yields, this chart helps users investigate how these factors impact agricultural productivity, highlighting potential effects on soil quality and yield outcomes.
+##### 3. Crop Yields & Extreme Weather by Region
+ - Task: Compare Agricultural Productivity Across Regions
+ - This heatmap shows crop yields and extreme weather events by region over time, allowing users to compare productivity across different areas and understand how regional variations in extreme weather affect yields.
 
 
 ## Prototypes
 
-I’ve created a proof of concept visualization of this data. It's a ... and it shows ...
+I’ve created a proof of concept visualization of this data. It's a multi-line chart and it shows trends in crop yield, temperature, and precipitation over time from the year 2000 to 2005. Each line represents a different variable, allowing for an analysis of how these factors change over time and potentially relate to one another.
 
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-
-(please put a screenshot of one or more visualizations of this dataset you already made, for previous assignments, and link to them)
-
-You can put images into here by pasting them into issues.
-
-You can make images into links like this:
-
-```
-[![image](https://user-images.githubusercontent.com/68416/65240758-9ef6c980-daff-11e9-9ffa-e35fc62683d2.png)](https://vizhub.com/curran/eab039ad1765433cb51aad167d9deae4)
-```
-
-
-Also, you can study the [source](https://raw.githubusercontent.com/curran/dataviz-project-template-proposal/master/README.md) to figure out Markdown formatting. You can use the GitHub built-in editor to edit the document.
+[![image](images/pseudo_viz.png)](https://vizhub.com/wyy-47/pseudovizforclimatedata)
 
 ## Open Questions
 
-(describe any fear, uncertainty, or doubt you’re having about the feasibility of implementing the sketched system. For example, “I’m not sure where to get the geographic shapes to build a map from this data” or “I don’t know how to resolve the codes to meaningful names” … Feel free to delete this section if you’re confident.)
+- Combining climate and crop data with different units and scales may require complex normalization for meaningful comparisons.
+- Implementing dynamic filters and region selectors could be technically challenging, potentially affecting performance with larger datasets.
 
 ## Milestones
 
-(for each week, estimate what would be accomplised)
+**Week 1:** Collect, clean, and normalize all required datasets, including climate, crop yield, and regional shapes.
+
+**Week 2:** Build basic versions of each chart without interactivity, ensuring data alignment and accuracy.
+
+**Week 3:** Add filters, region selection, and hover details to enhance exploration and usability.
+
+**Week 4:** Refine visualizations, conduct user testing, and finalize adjustments for a polished, user-ready system.
