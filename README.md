@@ -31,11 +31,17 @@ The following tasks and questions will drive the visualization and interaction d
  - This heatmap shows crop yields and extreme weather events by region over time, allowing users to compare productivity across different areas and understand how regional variations in extreme weather affect yields.
 
 
-## Prototypes
+## Prototypes and Progress
 
-I’ve created a proof of concept visualization of this data. It's a multi-line chart and it shows trends in crop yield, temperature, and precipitation over time from the year 2000 to 2005. Each line represents a different variable, allowing for an analysis of how these factors change over time and potentially relate to one another.
+(images are clickable which will open the link to the project.)
+
+This is a prototype of visualization of the first sketch. It's a multi-line chart and it shows trends in crop yield, temperature, and precipitation over time from the year 2000 to 2005. Each line represents a different variable, allowing for an analysis of how these factors change over time and potentially relate to one another.
 
 [![image](images/pseudo_viz.png)](https://vizhub.com/wyy-47/pseudovizforclimatedata)
+
+This is a start for the third sketch, but with a globe prioritizing the location (region) rather than a heat map.
+
+[![image](images/globe_cities.png)](https://vizhub.com/wyy-47/climate-world-map-cities)
 
 ## Open Questions
 
@@ -46,8 +52,16 @@ I’ve created a proof of concept visualization of this data. It's a multi-line 
 
 **Week 1:** Collect, clean, and normalize all required datasets, including climate, crop yield, and regional shapes.
 
+**Week 1 Actual:** Created a panning and zooming globe with cities that agriculturally represents
+the country-region pair of each entries. Further work will be done to incorporate crop yields by crop type. 
+Each country-region might have multiple crops, and maybe offset the circles to show everything or have a select
+bar or such. [Vizhub link for the globe](https://vizhub.com/wyy-47/climate-world-map-cities)
+
 **Week 2:** Build basic versions of each chart without interactivity, ensuring data alignment and accuracy.
 
 **Week 3:** Add filters, region selection, and hover details to enhance exploration and usability.
 
 **Week 4:** Refine visualizations, conduct user testing, and finalize adjustments for a polished, user-ready system.
+
+## TODO
+- The city points on the globe is "see-through", need to fix it or not use globe. 
