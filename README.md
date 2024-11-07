@@ -74,6 +74,10 @@ Only worked on one chart, continuing the chart from last week. updates:
 ### Week 3:
 Add filters, region selection, and hover details to enhance exploration and usability.
 
+### Week 3 Actual:
+- Added color legend
+[![image](images/climate-cities-color-legend.png)](https://vizhub.com/wyy-47/climate-cities-color-legend)
+
 ### Week 4:
 Refine visualizations, conduct user testing, and finalize adjustments for a polished, user-ready system.
 
