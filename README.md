@@ -81,6 +81,11 @@ Add filters, region selection, and hover details to enhance exploration and usab
 ### Week 4:
 Refine visualizations, conduct user testing, and finalize adjustments for a polished, user-ready system.
 
+### Week 4 Actual:
+- Fixed tooltips not disappearing when zooming and dragging.
+- Fixed tooltips showing up when a selection is made.
+- Fixed circles overlapping in the same region in the same year.
+[![image](images/climate-cities-fixed.png)](https://vizhub.com/wyy-47/climatecitites-fixed)
+
 ## TODO
-- tooltip is not disappearing if the mouse stays and zooming or dragging
 - maybe combine same crop type in the same year in the same region
