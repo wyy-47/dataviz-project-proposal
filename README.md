@@ -87,5 +87,12 @@ Refine visualizations, conduct user testing, and finalize adjustments for a poli
 - Fixed circles overlapping in the same region in the same year.
 [![image](images/climate-cities-fixed.png)](https://vizhub.com/wyy-47/climatecitites-fixed)
 
+### Week 5 Actual:
+- Started to work on another viz, the second sketch. 
+- Implemented the data into scatter plot, where x and y axis is the pesticide usage and fertilizer usage; the size of the circle is the crop yield; the color is the health index. 
+- Tooltips for detailed information when hovered over the circles.
+[![image](images/climate-scatter-plot-v1.png)](https://vizhub.com/wyy-47/climate-scatter-plot-v1)
+
 ## TODO
-- maybe combine same crop type in the same year in the same region
+- maybe combine/average same crop type in the same year in the same region for the globe viz
+- add another filter for the scatter plot to select region.
