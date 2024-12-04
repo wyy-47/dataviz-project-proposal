@@ -16,9 +16,7 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-<div style="border: 1px solid black; display: inline-block;">
-    <img src="images/cs573_5-1.jpg" alt="sketch 1" width="500">
-</div>
+<kbd><img src="images/cs573_5-2.jpg" alt="sketch 2" width="500"></kbd>
 <img src="images/cs573_5-2.jpg" alt="sketch 2" width="500" style="border: 1px solid black">
 <img src="images/cs573_5-3.jpg" alt="sketch 3" width="500" style="border: 1px solid black">
 
