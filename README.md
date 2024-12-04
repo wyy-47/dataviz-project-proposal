@@ -59,13 +59,16 @@ Collect, clean, and normalize all required datasets, including climate, crop yie
 Created a panning and zooming globe with cities that agriculturally represents
 the country-region pair of each entries. Further work will be done to incorporate crop yields by crop type. 
 Each country-region might have multiple crops, and maybe offset the circles to show everything or have a select
-bar or such. [Vizhub link for the globe](https://vizhub.com/wyy-47/climate-world-map-cities)
+bar or such.
+<a href="https://vizhub.com/wyy-47/climate-world-map-cities" target="-black">
+<img src = "images/climate_cities_v1.png" width = "400" />
+</a>
 
 ### Week 2: 
 Build basic versions of each chart without interactivity, ensuring data alignment and accuracy.
 
 ### Week 2 Actual:
-Only worked on one chart, continuing the chart from last week. updates:
+Continued to work on the same chart. updates:
 - Tooltip with info
 - Dropdown bar with year selection
 - Give each distinct crop type a color and size them according to the value
@@ -78,7 +81,9 @@ Only worked on one chart, continuing the chart from last week. updates:
 Add filters, region selection, and hover details to enhance exploration and usability.
 
 ### Week 3 Actual:
-- Added color legend
+- Added color legend for crop types
+- Color legend can be selected to show the selected crop type
+- Can also be unselected to show all crop type
 <a href="https://vizhub.com/wyy-47/climate-cities-color-legend" target="-black">
 <img src = "images/climate-cities-color-legend.png" width = "400" />
 </a>
@@ -93,7 +98,6 @@ Refine visualizations, conduct user testing, and finalize adjustments for a poli
 <a href="https://vizhub.com/wyy-47/climatecitites-fixed" target="-black">
 <img src = "images/climate-cities-fixed.png" width = "400" />
 </a>
-
 
 ### Week 5 Actual:
 - Started to work on another viz, the second sketch. 
