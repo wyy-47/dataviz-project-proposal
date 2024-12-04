@@ -16,9 +16,9 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-![sketch1](images/cs573_5-1.jpg)
-![sketch2](images/cs573_5-2.jpg)
-![sketch3](images/cs573_5-3.jpg)
+<img src="images/cs573_5-1.jpg" alt="sketch 1" width="500" style="border: 1px solid black">
+<img src="images/cs573_5-2.jpg" alt="sketch 2" width="500" style="border: 1px solid black">
+<img src="images/cs573_5-3.jpg" alt="sketch 3" width="500" style="border: 1px solid black">
 
 ##### 1. Climate & Crop Yield Over Time
 - Task: Analyze Climate Trends Over Time
@@ -37,12 +37,15 @@ The following tasks and questions will drive the visualization and interaction d
 
 This is a prototype of visualization of the first sketch. It's a multi-line chart and it shows trends in crop yield, temperature, and precipitation over time from the year 2000 to 2005. Each line represents a different variable, allowing for an analysis of how these factors change over time and potentially relate to one another.
 
-[![image](images/pseudo_viz.png)](https://vizhub.com/wyy-47/pseudovizforclimatedata)
+<a href="https://vizhub.com/wyy-47/pseudovizforclimatedata" target="-black">
+<img src = "images/pseudo_viz.png" width = "400" />
+</a>
 
 This is a start for the third sketch, but with a globe prioritizing the location (region) rather than a heat map.
 
-[![image](images/globe_cities.png)](https://vizhub.com/wyy-47/climate-world-map-cities)
-
+<a href="https://vizhub.com/wyy-47/climate-world-map-cities" target="-black">
+<img src = "images/globe_cities.png" width = "300" style="border: 1px solid black"/>
+</a>
 
 ## Open Questions
 
@@ -68,15 +71,18 @@ Only worked on one chart, continuing the chart from last week. updates:
 - Dropdown bar with year selection
 - Give each distinct crop type a color and size them according to the value
 - Different crop yields are spiraled out from the city's lat and long
-
-[![image](images/climate_cities_fix_tooltip.png)](https://vizhub.com/wyy-47/climatecitites-fixingtooltip)
+<a href="https://vizhub.com/wyy-47/climatecitites-fixingtooltip" target="-black">
+<img src = "images/climate_cities_fix_tooltip.png" width = "400" />
+</a>
 
 ### Week 3:
 Add filters, region selection, and hover details to enhance exploration and usability.
 
 ### Week 3 Actual:
 - Added color legend
-[![image](images/climate-cities-color-legend.png)](https://vizhub.com/wyy-47/climate-cities-color-legend)
+<a href="https://vizhub.com/wyy-47/climate-cities-color-legend" target="-black">
+<img src = "images/climate-cities-color-legend.png" width = "400" />
+</a>
 
 ### Week 4:
 Refine visualizations, conduct user testing, and finalize adjustments for a polished, user-ready system.
@@ -85,14 +91,24 @@ Refine visualizations, conduct user testing, and finalize adjustments for a poli
 - Fixed tooltips not disappearing when zooming and dragging.
 - Fixed tooltips showing up when a selection is made.
 - Fixed circles overlapping in the same region in the same year.
-[![image](images/climate-cities-fixed.png)](https://vizhub.com/wyy-47/climatecitites-fixed)
+<a href="https://vizhub.com/wyy-47/climatecitites-fixed" target="-black">
+<img src = "images/climate-cities-fixed.png" width = "400" />
+</a>
+
 
 ### Week 5 Actual:
 - Started to work on another viz, the second sketch. 
 - Implemented the data into scatter plot, where x and y axis is the pesticide usage and fertilizer usage; the size of the circle is the crop yield; the color is the health index. 
 - Tooltips for detailed information when hovered over the circles.
-[![image](images/climate-scatter-plot-v1.png)](https://vizhub.com/wyy-47/climate-scatter-plot-v1)
+<a href="https://vizhub.com/wyy-47/climate-scatter-plot-v1" target="-black">
+<img src = "images/climate-scatter-plot-v1.png" width = "400" />
+</a>
+
+### Week 6 Work:
+- Implemented another filter for the scatter plot to select region
+<a href="https://vizhub.com/wyy-47/climate-scatter-v2" target="-black">
+<img src = "images/climate_scatter_plot_v2.png" width = "400" />
+</a>
 
 ## TODO
 - maybe combine/average same crop type in the same year in the same region for the globe viz
-- add another filter for the scatter plot to select region.
