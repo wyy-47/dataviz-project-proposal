@@ -44,7 +44,7 @@ This is a prototype of visualization of the first sketch. It's a multi-line char
 This is a start for the third sketch, but with a globe prioritizing the location (region) rather than a heat map.
 
 <a href="https://vizhub.com/wyy-47/climate-world-map-cities" target="-black">
-<img src = "images/globe_cities.png" width = "300" style="border: 1px solid black"/>
+<kbd><img src = "images/globe_cities.png" width = "300"/></kbd>
 </a>
 
 ## Open Questions
