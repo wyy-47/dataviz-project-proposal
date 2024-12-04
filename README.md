@@ -16,7 +16,9 @@ The following tasks and questions will drive the visualization and interaction d
 
 ## Sketches
 
-<img src="images/cs573_5-1.jpg" alt="sketch 1" width="500" style="border: 1px solid black">
+<div style="border: 1px solid black; display: inline-block;">
+    <img src="images/cs573_5-1.jpg" alt="sketch 1" width="500">
+</div>
 <img src="images/cs573_5-2.jpg" alt="sketch 2" width="500" style="border: 1px solid black">
 <img src="images/cs573_5-3.jpg" alt="sketch 3" width="500" style="border: 1px solid black">
 
@@ -48,7 +50,6 @@ This is a start for the third sketch, but with a globe prioritizing the location
 </a>
 
 ## Open Questions
-
 - Combining climate and crop data with different units and scales may require complex normalization for meaningful comparisons.
 - Implementing dynamic filters and region selectors could be technically challenging, potentially affecting performance with larger datasets.
 
@@ -106,6 +107,7 @@ Refine visualizations, conduct user testing, and finalize adjustments for a poli
 
 ### Week 6 Work:
 - Implemented another filter for the scatter plot to select region
+- Can also select "all region" to show all data in a certain year
 <a href="https://vizhub.com/wyy-47/climate-scatter-v2" target="-black">
 <img src = "images/climate_scatter_plot_v2.png" width = "400" />
 </a>
