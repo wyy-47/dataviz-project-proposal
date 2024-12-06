@@ -61,7 +61,7 @@ This is a start for the third sketch, but with a globe prioritizing the location
 
 ### Week 1:
 Collect, clean, and normalize all required datasets, including climate, crop yield, and regional shapes.
-### Week 1 Actual:
+### Week 1 Progress:
 Created a panning and zooming globe with cities that agriculturally represents
 the country-region pair of each entries. Further work will be done to incorporate crop yields by crop type. 
 Each country-region might have multiple crops, and maybe offset the circles to show everything or have a select
@@ -73,7 +73,7 @@ bar or such.
 ### Week 2: 
 Build basic versions of each chart without interactivity, ensuring data alignment and accuracy.
 
-### Week 2 Actual:
+### Week 2 Progress:
 Continued to work on the same chart. updates:
 - Tooltip with info
 - Dropdown bar with year selection
@@ -97,7 +97,7 @@ Add filters, region selection, and hover details to enhance exploration and usab
 ### Week 4:
 Refine visualizations, conduct user testing, and finalize adjustments for a polished, user-ready system.
 
-### Week 4 Actual:
+### Week 4 Progress:
 - Fixed tooltips not disappearing when zooming and dragging.
 - Fixed tooltips showing up when a selection is made.
 - Fixed circles overlapping in the same region in the same year.
@@ -105,7 +105,7 @@ Refine visualizations, conduct user testing, and finalize adjustments for a poli
 <img src = "images/climate-cities-fixed.png" width = "400" />
 </a>
 
-### Week 5 Actual:
+### Week 5 Progress:
 - Started to work on another viz, the second sketch. 
 - Implemented the data into scatter plot, where x and y axis is the pesticide usage and fertilizer usage; the size of the circle is the crop yield; the color is the health index. 
 - Tooltips for detailed information when hovered over the circles.
@@ -113,7 +113,7 @@ Refine visualizations, conduct user testing, and finalize adjustments for a poli
 <img src = "images/climate-scatter-plot-v1.png" width = "400" />
 </a>
 
-### Week 6 Work:
+### Week 6 Progress:
 - Implemented another filter for the scatter plot to select region
 - Can also select "all region" to show all data in a certain year
 <a href="https://vizhub.com/wyy-47/climate-scatter-v3" target="-black">
