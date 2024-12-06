@@ -116,6 +116,7 @@ Refine visualizations, conduct user testing, and finalize adjustments for a poli
 ### Week 6 Work:
 - Implemented another filter for the scatter plot to select region
 - Can also select "all region" to show all data in a certain year
+- Improved the tooltips location, if the circle is on the right edge or bottom, the tooltips are shown on the left or top of the cursor 
 <a href="https://vizhub.com/wyy-47/climate-scatter-v3" target="-black">
 <img src = "images/climate_scatter_plot_v2.png" width = "400" />
 </a>
