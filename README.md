@@ -42,8 +42,9 @@ This is a prototype of visualization of the first sketch. It's a multi-line char
 </a>
 
 This is a prototype of the second sketch.
+
 <a href="https://vizhub.com/wyy-47/scatter-plot-for-climate-data" target="-black">
-<kbd><img src = "images/prototype1.png" width = "300"/></kbd>
+<kbd><img src = "images/prototype1.png" width = "400"/></kbd>
 </a>
 
 This is a start for the third sketch, but with a globe prioritizing the location (region) rather than a heat map.
